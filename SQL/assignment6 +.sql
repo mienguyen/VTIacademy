@@ -115,19 +115,7 @@ BEGIN
 END$$
 DELIMITER ;
 
--- Question 8: Viết 1 store cho phép người dùng nhập vào Essay hoặc Multiple-Choice 
--- để thống kê câu hỏi essay hoặc multiple-choice nào có content dài nhất 
-DROP PROCEDURE IF EXISTS most_of_content;
-DELIMITER $$
-CREATE PROCEDURE most_of_content(IN in_Type_name  VARCHAR(20))
-BEGIN 
-
-WITH CTE_
-SELECT * 
  
- END$$
- DELIMITER ;
- CALL most_of_content ('Essay');
   
  
 -- Question 11: Viết store cho phép người dùng xóa phòng ban bằng cách người dùng nhập vào tên phòng ban 
